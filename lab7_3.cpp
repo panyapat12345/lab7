@@ -32,4 +32,6 @@ int main(){
   cout << adiff(90,-90) << endl;
   cout << adiff(1000,280) << endl;
   cout << adiff(60,244) << endl;
+
+  return 0;
 }
