@@ -9,13 +9,15 @@ int adiff(int a,int b){
   a = a%360;
   b = b%360;
 
-  if(a > b)
+  if(a > b){
     c = a - b;
-  else
+  }else{
     c = b - a;
+  }
 
-  if(c > 180)
+  if(c > 180){
     c = 360 - c;
+  }
   
   return c;
 
